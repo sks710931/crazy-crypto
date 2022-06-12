@@ -11,15 +11,7 @@
         font-size: 55px;
         margin-bottom: 30px;
       }
-      .button-connect {
-        margin-top: 20px;
-        background-color: #fff;
-        height: 60px;
-        width: 250px;
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 18px;
-      }
+      
       .mint-select {
         display: flex;
         flex-direction: row;
@@ -59,4 +51,25 @@
 }
 .white {
   color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .mint-right{
+    margin-top: 30px;
+  }
+  
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .mint-right{
+    height: 620px !important;
+  }
+  
+}
+.button-connect {
+  margin-top: 20px;
+  background-color: #fff;
+  height: 60px;
+  width: 250px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
 }

@@ -29,7 +29,7 @@ export const Giveaway = () => {
                 <img src={union} className="union-img" alt="union" />
                 <div className="content-give">
                   <img src={coin} className="one" alt="" />
-                  <p>We like to give back to our collectors</p>
+                  <p className="text-p">We like to give back to our collectors</p>
                 </div>
               </div>
             </Col>
@@ -38,7 +38,7 @@ export const Giveaway = () => {
                 <img src={union} className="union-img" alt="union" />
                 <div className="content-give">
                   <img src={box} className="two" alt="" />
-                  <p>
+                  <p className="text-p">
                     There will be two $5,000 USDC giveaways from our Sleepy
                     Giraffe collection
                   </p>
@@ -50,7 +50,7 @@ export const Giveaway = () => {
                 <img src={union} className="union-img" alt="union" />
                 <div className="content-give">
                   <img src={gift} className="three" alt="" />
-                  <p>
+                  <p className="text-p">
                     As long as you hold an nft at time of drawing you have a
                     chance to win. Minting more NFTs gives you a better chance.
                   </p>
@@ -71,7 +71,7 @@ export const Giveaway = () => {
             </Col>
             <Col className="subHead " lg={12} md={12} sm={12}>
               <p>
-                <IconButton>
+                <IconButton onClick={() => window.open("https://twitter.com/CrazyNftAnimals?s=20&t=TllqPbo-nAcrJ-QaOoImQw", "_blank")}>
                     <TwitterIcon />
                 </IconButton>
               </p>

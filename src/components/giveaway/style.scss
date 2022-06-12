@@ -11,7 +11,7 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
-
+        height: 347px;
       .giveItem {
         display: flex;
         flex-direction: row;
@@ -86,3 +86,62 @@ hr.line{
 p.small{
     font-size: 14px !important;
 }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .union-img{
+      width: 360px;
+    }
+    .one{
+        width: 50px;
+        margin-top: -35px !important;
+        margin-bottom: 20px !important;
+    }
+    .two{
+        width: 50px;
+        margin-top: -20px !important;
+        margin-bottom: 20px !important;
+    }
+    .three{
+        width: 40px;
+        margin-top: -5px !important;
+        margin-bottom: 30px !important;
+    }
+    .text-p{
+        font-size: 15px;
+    }
+    
+  }
+
+  @media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .union-img{
+      width: 360px;
+    }
+    .one{
+        width: 50px;
+        margin-top: -35px !important;
+        margin-bottom: 20px !important;
+    }
+    .two{
+        width: 50px;
+        margin-top: -20px !important;
+        margin-bottom: 20px !important;
+    }
+    .three{
+        width: 40px;
+        margin-top: -5px !important;
+        margin-bottom: 30px !important;
+    }
+    .text-p{
+        font-size: 15px;
+    }
+    
+  }
+
+  @media screen and (max-width: 991px) {
+    .content-give{
+      width: 400px !important;
+    }
+    .give-col{
+        height: 300px !important;
+    }
+    
+  }
