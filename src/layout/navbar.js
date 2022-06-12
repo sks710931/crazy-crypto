@@ -16,7 +16,7 @@ export const AppBar = (props) => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <Nav className="links">
-          <Nav.Link className="link" href="#mint">
+          <Nav.Link className="link" target="_blank" href="https://snowtrace.io/address/0xF9C605f7eAB4dFE775A5340E274DEB36194976Cc">
             SNOWTRACE
           </Nav.Link>
           <Nav.Link className="link" href="#giveaways">
@@ -41,7 +41,7 @@ export const AppBar = (props) => {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1 pe-3">
-              <Nav.Link className="link" href="#story">
+              <Nav.Link className="link" target="_blank" href="https://snowtrace.io/address/0xF9C605f7eAB4dFE775A5340E274DEB36194976Cc">
                 SNOWTRACE
               </Nav.Link>
               <Nav.Link className="link" href="#giveaways">
