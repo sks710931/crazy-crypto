@@ -123,7 +123,7 @@ export const Minter = () => {
               </div>
               <p>
                 Price:{" "}
-                <span style={{ color: "red" }}>{salePrice} AVAX + Gas fee</span>
+                <span style={{ color: "red" }}>4 AVAX + Gas fee</span>
               </p>
               <p>
                 Your Wallet Address:{" "}
